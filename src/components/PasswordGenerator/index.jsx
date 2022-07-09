@@ -11,9 +11,9 @@ const PasswordGenerator = () => {
     useEffect(() => {
         const draftPassword = [];
 
-        draftPassword.push(randomDigit());
-        draftPassword.push(randomSymbol());
-        draftPassword.push(randomLetter());
+        draftPassword.push(...Array.from({ length: digitLength }, randomDigit));
+        draftPassword.push(...Array.from({ length: symbolLength }, randomSymbol));
+        draftPassword.push(...Array.from({ length: passwordLength }, randomLetter));
 
         setPassword(
             draftPassword
