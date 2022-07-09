@@ -1,0 +1,20 @@
+.actions {
+    display: flex;
+    justify-content: center;
+}
+
+.copy-password-to-clipobard {
+    margin-top: 2rem;
+    padding: 0.5rem 0.75rem;
+    background-color: #0175FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.copy-password-to-clipobard:hover {
+    filter: brightness(120%);
+}
