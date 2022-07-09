@@ -18,3 +18,11 @@
     font-family: monospace;
     word-break: break-all; /* quebrar a linha seguinte */
 }
+
+.password-box .digit {
+    color: #1a56db;
+}
+
+.password-box .symbol {
+    color: #b43403;
+}
