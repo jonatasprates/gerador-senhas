@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #FAFAFA;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  max-width: 500px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.app-title {
+  margin-bottom: 2rem;
+}
+
