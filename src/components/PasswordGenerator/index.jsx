@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import PasswordBox from "../PasswordBox";
 
 import "./styles.css";
 
@@ -84,9 +85,7 @@ const PasswordGenerator = () => {
                 <span>{symbolLength}</span>
             </div>
 
-            <h1 style={{marginTop: "2rem", fontFamily: "monospace", textAlign: "center"}}>
-                {password}
-            </h1>
+           <PasswordBox password={password} />
         </>
     )
         

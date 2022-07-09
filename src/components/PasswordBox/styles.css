@@ -1,0 +1,20 @@
+.password-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 6rem;
+}
+
+.password-box p {
+    width: 33ch;
+    margin: 2rem auto 0;
+    padding: 1ch 0;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1.75rem;
+    font-family: monospace;
+    word-break: break-all; /* quebrar a linha seguinte */
+}
